@@ -6,10 +6,10 @@ from gatet import Tele
 import os
 import json
 
-token = '8153296702:AAFN1KOe_u3b2P4ZgWlsO6GfRsXUHx5uF64'
+token = '8120746083:AAF_k_Ud4aws2h9ImyhEmFmlLK_HvgNJxV4'
 bot = telebot.TeleBot(token, parse_mode="HTML")
 allowed_users = ['47987980465', '7579489523', '7749807563', '6099962760']
-admin_user_ids = ['7579489523', '7987980465']  # Replace with actual admin IDs
+admin_user_ids = ['7579489523', '7987980465',]  # Replace with actual admin IDs
 
 @bot.message_handler(commands=["start"])
 def start(message):
